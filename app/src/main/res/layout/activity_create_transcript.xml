@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_transcript"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mypc.demosqliterepository.activity.createactivity.CreateTranscriptActivity">
+
+    <EditText
+        android:id="@+id/edtInputNameTranscript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnInputIdUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Unit" />
+
+    <Button
+        android:id="@+id/btnInputIdClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Class" />
+
+    <Button
+        android:id="@+id/btnInputIdStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Student" />
+
+    <EditText
+        android:id="@+id/edtInputPiont15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Point 15"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtInputPiont45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Point 45"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnCreateTranscriptFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Transcript" />
+</LinearLayout>
+
